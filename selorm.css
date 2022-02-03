@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	/*background-color:#66fcf1 !important;*/
+}
+
+/* ==== Navbar ====*/
+.navbar{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	background: rgba(0,0,0,0.6) !important;
+	padding: 20px 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.visited,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #ff5f08;
+	text-decoration: none;
+}
+
+/* ==== Background ==== 
+.img-fluid{
+	margin-top: ;
+	align-content: center;
+	position: relative;
+} */
+.header-content{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	max-width: 100%;
+}
+.carousel-caption h5{
+	font-size: 4em;
+	font-weight: 300;
+	color: #fff;
+	font-family: monospace;
+}
+.carousel-caption h1{
+	font-size: 4em;
+	font-weight: bold;
+	color: #fff;
+	font-family: 'Montserrat',sans-serif;
+}
+.carousel-caption p{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ccc;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
+
+/* ==== About ==== */
+
+#about .btn{
+	width: 40%;
+	padding: 15px 22px;
+	background: #000;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#about .btn a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#about .btn:hover{
+	border: 2px solid #ff5f08;
+	cursor: pointer;
+}
+
+/* ==== Servces ==== */
+#services .btn:hover{
+	border: 2px solid #ff5f08;
+	cursor: pointer;
+}
+
+
+/* ==== Contact ==== */
+#contact .btn:hover{
+	border: 2px solid #ff5f08;
+	cursor: pointer;
+}
+.icn {
+	color: gray;
+}
+
+.call-details ul a i {
+	color: gray;
+	float: left;
+	font-size: 20px;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.call-details ul a i:hover {
+	color: #ff5f08;
+} 
+
+/* === Footer === */
+footer{
+	font-family: 'Lato', sans-serif;	
+	font-size: 1rem;
+}
+.footer-bg {
+		background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link{
+	color: gray;
+}
+.footer-nav.active,.footer-nav .nav-link.visited,
+.footer-nav .nav-link:hover{
+	color: #ff5f08;
+	text-decoration: none;
+}
+footer hr {
+	width: 100%;	
+	height: 10px;
+}
+.copyright {
+	font-size: 0.80rem;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.icn {
+	letter-spacing: 0.05rem;
+}
+footer ul a i {
+	color: gray;
+	float: left;
+	font-size: 20px;
+	margin-left: 22px;
+	margin-right: 5px;
+}
+footer ul a i:hover {
+	color: #ff5f08;
+}
+
+/* ==== Success Page ==== */
+#jumbo h1{
+	margin-top: 15%;
+}
+
+#jumbo .btn:hover{
+	border: 2px solid #ff5f08;
+	cursor: pointer;
+}
